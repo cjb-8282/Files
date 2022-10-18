@@ -13,7 +13,8 @@ Plugin 'tpope/vim-fugitive'         "vi에서 git 사용
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'vim-airline/vim-airline'
-Plugin 'scrooloose/nerdtree'
+Plugin 'https://github.com/wenlongche/Trinity'
+" Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/wenlongche/SrcExpl'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/syntastic'
@@ -43,7 +44,8 @@ let g:ctrlp_custom_ignore = {
 
 filetype on
 
-nmap <F8> :SrcExplToggle<CR>            "F8 Key = SrcExpl Toggling
+" nmap <F8> :SrcExplToggle<CR>            "F8 Key = SrcExpl Toggling
+nmap <F8> :TrinityToggleAll<CR>            "F8 Key = SrcExpl Toggling
 " // Set the height of Source Explorer window                                  "
 let g:SrcExpl_winHeight = 8
 " // Set 100 ms for refreshing the Source Explorer                             "
