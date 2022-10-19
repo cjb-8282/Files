@@ -12,13 +12,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'         "vi에서 git 사용
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline'
 Plugin 'https://github.com/wenlongche/Trinity'
-" Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/wenlongche/SrcExpl'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'scrooloose/syntastic'
-Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'https://github.com/yegappan/taglist'
+"Plugin 'airblade/vim-gitgutter'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nanotech/jellybeans.vim'
 
 call vundle#end()
@@ -34,13 +34,13 @@ call vundle#end()
 " colorscheme jellybeans
 "
 "NERDTree ON 단축키를 "\nt"로 설정
-map <Leader>nt <ESC>:NERDTree<CR>
-let NERDTreeShowHidden=1
+"map <Leader>nt <ESC>:NERDTree<CR>
+"let NERDTreeShowHidden=1
 " let NERDTreeQuitOnOpen=1
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|vendor$',
-    \ 'file': '\v\.(exe|so|dll)$'
-\ }
+"let g:ctrlp_custom_ignore = {
+"  \ 'dir':  '\.git$\|vendor$',
+"    \ 'file': '\v\.(exe|so|dll)$'
+"\ }
 
 filetype on
 
