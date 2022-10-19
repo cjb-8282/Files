@@ -32,7 +32,7 @@ call vundle#end()
 " :PluginClean      - 사용하지 않는 플러그인의 삭제를 확인; `!`를 붙여 자동 삭제를 승인하십시>   
 
 " colorscheme jellybeans
-"
+
 "NERDTree ON 단축키를 "\nt"로 설정
 "map <Leader>nt <ESC>:NERDTree<CR>
 "let NERDTreeShowHidden=1
