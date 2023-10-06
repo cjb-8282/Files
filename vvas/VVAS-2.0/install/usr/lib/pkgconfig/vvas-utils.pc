@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: GStreamer VVAS Utility Library
+Description: VVAS Utility Library Implementation
+Requires: xrt >= 2.11.0 \
+          jansson >= 2.11
+Version: 2.0
+Libs: -L${libdir} -lvvasutil-2.0 -lxrtutil-2.0
+Cflags: -I${includedir}
+
