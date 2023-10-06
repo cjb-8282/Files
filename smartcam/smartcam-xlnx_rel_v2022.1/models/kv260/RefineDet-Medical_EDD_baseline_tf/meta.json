@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "RefineDet-Medical_EDD_baseline_tf.xmodel",
+    "kernel": [
+        "subgraph_Reshape"
+    ],
+    "target": "DPUCZDX8G_ISA1_B3136"
+}
